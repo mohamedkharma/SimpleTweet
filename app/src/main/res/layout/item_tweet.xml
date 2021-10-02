@@ -20,10 +20,11 @@
         android:id="@+id/tvScreenName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="0dp"
-        android:layout_toEndOf="@+id/ivProfileImage"
+        android:layout_marginStart="4dp"
+        android:layout_toEndOf="@+id/tvName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#939292"
+        android:textSize="14sp"
         tools:text="Username963" />
 
     <TextView
@@ -35,4 +36,24 @@
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
         tools:text="This is the Tweet! yay!" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="wrap_content"
+        android:layout_height="31dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp"
+        android:textColor="#939292"
+        tools:text="12:12" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:textColor="#3C3C3C"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="Username963" />
 </RelativeLayout>

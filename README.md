@@ -74,8 +74,7 @@ Here's a walkthrough of implemented user stories:
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-
-Describe any challenges encountered while building the app.
+Accessing the twitter API. Everytime I tried to use my own API keys, the app would just crash on me. Thus, I had to use the provided API keys from CodePath.
 
 ## Open-source libraries used
 
